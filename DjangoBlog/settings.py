@@ -99,10 +99,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangoblog',
-        'USER': os.environ.get('DJANGO_MYSQL_USER'),
-        'PASSWORD': os.environ.get('DJANGO_MYSQL_PASSWORD'),
-        'HOST': os.environ.get('DJANGO_MYSQL_HOST'),
-        'PORT': 3306,
+        'USER': 'root',
+        'PASSWORD': 'Qwer.1234',
+        'HOST': '139.129.99.221',
+        'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
