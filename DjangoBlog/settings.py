@@ -100,7 +100,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangoblog',
         'USER': 'root',
-        'PASSWORD': 'Qwer.1234',
+        'PASSWORD': '123456',
         'HOST': '139.129.99.221',
         'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4'},
